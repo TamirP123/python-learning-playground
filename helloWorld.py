@@ -1,16 +1,24 @@
-print("hello world");
 
-balance = 25;
-computer = 800;
+def buyComputer(balance):
+    computer = 500;
+    if balance < computer:
+        print("I don't have enough for this computer!");
+    elif balance >= computer:
+        print("I can buy this computer!");
+    else:
+        print("Something went wrong...")    
 
-if balance < computer:
-    print("I don't have enough for this computer!")
-    balance += 800;
-    print(balance);
-else:
-    print("I can purchase this computer!")
+buyComputer(500);
+buyComputer(400);
 
-def say_hello(text):
-    print(text);    
+#While Loop
 
-say_hello("This is the text from the say hello function");
+x = 0;
+while (x<5):
+    print(x);
+    x+=1;
+
+#For Loop
+
+for x in range(1,10):
+    print(x);
