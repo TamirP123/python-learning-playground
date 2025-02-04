@@ -9,3 +9,8 @@ if balance < computer:
     print(balance);
 else:
     print("I can purchase this computer!")
+
+def say_hello(text):
+    print(text);    
+
+say_hello("This is the text from the say hello function");
