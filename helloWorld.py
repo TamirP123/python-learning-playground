@@ -1,2 +1,11 @@
 print("hello world");
-print(2**2);
+
+balance = 25;
+computer = 800;
+
+if balance < computer:
+    print("I don't have enough for this computer!")
+    balance += 800;
+    print(balance);
+else:
+    print("I can purchase this computer!")
