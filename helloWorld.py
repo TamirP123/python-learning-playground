@@ -1,3 +1,9 @@
+import math;
+print(math.pi);
+
+name = 'Mir';
+print("Hello " + name + "!");
+
 
 def buyComputer(balance):
     computer = 500;
@@ -22,3 +28,9 @@ while (x<5):
 
 for x in range(1,10):
     print(x);
+
+days = ["M", "T", "W", "TD", "F", "Sat", "Sun"];
+
+for d in days:
+    if(d == "Sat"): break; #Break will end the loop. continue will skip over
+    print(d);
